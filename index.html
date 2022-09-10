@@ -18,17 +18,72 @@
     <img src="logo.png">
   </header>
   <main>
-    <form>
-    <div>
-        <label for="username">Username</label>
-        <input type="text" id="username" required minlength="2">
-    </div>
-    <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" required minlength="2">
-    </div>
-    <button type="submit">Log In</button>
+  <h1>Book a Table</h1>
+<form method="POST">
+<div>
+  <label for="booking_date"> Booking Date</label>
+  <input type="date" id="booking_date" name="booking_date">
+</div>
+<div>
+  <label for="booking_people" Number of People>
+    <input type="range" id="booking_people" name="booking_people" min="1" max="2">
+  </label>
+</div>
+<div>
+  <label for="booking_location">Location</label>
+<input id="booking_location" name="booking_location" list="locations">
+<datalist id="locations">
+  <option value="Ballard"></option>
+  <option value="Capital Hill"></option>
+</datalist>
+</div>
+ 
+
+  <fieldset id="size">
+    <label>
+      <input type="radio" value="2" name="size"> 2-person table
+    </label>
+    <label>
+      <input type="radio" value="4" name="size" checked> 4-person table
+    </label>
+    <label>
+      <input type="radio" value="6" name="size" checked> 6-person table
+    </label>
+  </fieldset>
+
+  <fieldset id="location">
+    <label>
+      <input type="radio" value="indoors" name="location" checked> Indoors
+    </label>
+    <label>
+      <input type="radio" value="outdoors" name="location"> Outdoors
+    </label>
+  </fieldset>
+  <button type="submit">Book table</button>
+
+  <div>
+    <label for="email_address">Email Address</label>
+    <input type="email" id="email_address" name="email_address">
+</div>
+<div>
+    <label for="booking_date">Date of Booking</label>
+    <input type="date" id="booking_date" name="booking_date">   
+</div>
+<div>
+    <label for="people">Number of people</label>
+    <input type="number" id="people" min="1" max="8" name="people">        
+</div>
+<div>
+    <label>
+        <input type="checkbox" id="agree" name="agree" required> 
+        I agree to the cancellation policy
+    </label>
+</div>
+<button type="submit">Book Now</button>
+
+
 </form>
+
   </main>
 </body>
 
