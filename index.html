@@ -63,24 +63,35 @@
   <h1>Canoe Coffee</h1>
   <p>Canoe Coffee is a coffee powered, canoe coffee car in Seattle, WA USA</p>
   <div class="row">
-    <div class="col-sm-4" style="background-color:red;">.col-sm-4 
+    <div class="col-sm-4" style="background-color:red;"> 
       <h2>Cofee Reservation</h2>
       <p>Choose when and where you'd like coffee.</p>
       <form>
-        <div class="form-group>
+        <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
+        <div class="form-group>
+          <label for="people">Number of People</label>
+          <input type="number" class="form-control" id="people">
+        </div>
+
+
+
         <div class="form-group">
-          <label for="people">Number of people</label>
-          <input type="number" id="people" min="1" max="8" name="people">   
+          <label for="exampleLocation1">Location</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">I agree to the cancelation policy.</label>
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+      
+
+
+
         <div>
           <label for="booking_location">Location</label>
         <input id="booking_location" name="booking_location" list="locations">
@@ -105,7 +116,7 @@
                 I agree to the cancellation policy
             </label>
         </div>
-        <button type="submit">Book Table</button>
+        
       </form>
 
     </div>
