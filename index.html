@@ -67,6 +67,16 @@
       <h2>Cofee Reservation</h2>
       <p>Choose when and where you'd like coffee.</p>
       <form>
+
+        <div class="form-group">
+          <label for="booking_location">Location</label>
+        <input  class="form-control" id="booking_location" name="booking_location" list="locations">
+        <datalist id="locations">
+          <option value="Lake WA, UW Stadium"></option>
+          <option value="South Lake Union, Gasworks Park"></option>
+        </datalist>
+        </div>
+
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -92,14 +102,7 @@
 
 
 
-        <div>
-          <label for="booking_location">Location</label>
-        <input id="booking_location" name="booking_location" list="locations">
-        <datalist id="locations">
-          <option value="Ballard"></option>
-          <option value="Capital Hill"></option>
-        </datalist>
-        </div>
+       
           <div>
             <label for="email_address">Email Address</label>
             <input type="email" id="email_address" name="email_address">
