@@ -13,6 +13,15 @@ body {
     padding-top: 65px;
   }
 
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: grey;
+    padding-bottom: 10px;
+    width: 100%;
+    opacity: 0.5;
+    }
   .nav-link {
     font-size: 23px;
     padding-top: 10px;
