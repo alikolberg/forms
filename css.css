@@ -2,7 +2,9 @@
     display: block;
 }
 
-
+.navbar {
+    position: relative;
+  }
 
 .offcanvas-body {
     flex-grow: 1;
