@@ -12,3 +12,15 @@
 body {
     padding-top: 65px;
   }
+
+  .nav-link {
+    font-size: 23px;
+    padding-top: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    display: inline;
+    right: 0;
+    color: white;
+    opacity: 1;
+    }
