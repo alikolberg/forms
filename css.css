@@ -2,9 +2,6 @@
     display: block;
 }
 
-.navbar {
-    position: relative;
-  }
 
 .offcanvas-body {
     flex-grow: 1;
@@ -13,5 +10,5 @@
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 65px;
   }
