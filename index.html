@@ -25,7 +25,27 @@
 </html>
 </head>
 
-<body>
+<!-- The scrollable area -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+  <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  ...
+    <ul class="navbar-nav">
+      <li><a href="#section1">Section 1</a></li>
+      ...
+  </nav>
+  
+  <!-- Section 1 -->
+  <div id="section1">
+    <h1>Section 1</h1>
+    <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+  </div>
+  ...
+  
+  </body>
+  
+<!-- <body>
   <header>
   
   </header>
@@ -180,6 +200,6 @@
           </div>
         </div>
   </main>
-</body>
+</body> -->
 
 </html>
