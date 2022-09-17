@@ -142,10 +142,7 @@
 
       <div class="form-group">
         <label for="name">Name</label>
-        <input type="name" class="form-control" id="name" aria-describedby="reservationname" placeholder="Name for Reservation">
-        <div class="invalid-feedback">
-          Please enter a name.
-        </div>
+        <input type="name" class="form-control" id="name" aria-describedby="reservationname" placeholder="Name for Reservation" required>
       </div>
       <div class="form-group">
         <label for="InputEmail1">Email address</label>
@@ -165,174 +162,39 @@
   
   <div id="boat" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
     <h1>The Boat</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Canoe Coffee is a coffee powered, canoe coffee car in Seattle, WA USA</p>
+    <table>
+      <tr>
+        <th>Catagory</th>
+        <th>Specs</th>
+      </tr>
+      <tr>
+        <td>Type:</td>
+        <td>Easy Rider Ouzel 17 Canoe</td>
+      </tr>
+      <tr>
+        <td>Color:</td>
+        <td>Red</td>
+      </tr>
+      <tr>
+        <td>Fuel:</td>
+        <td>People Powered By Coffee</td>
+      </tr>
+    </table>
+
   </div>
 
   <div id="roasters" class="container-fluid bg-success text-white" style="padding:100px 20px;">
     <h1>Regional Roasters</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Canoe Coffee sources its beans from rosasters all around the Pacific Northwest </p>
+    <ul>
+      <lh>Our Roasters</lh>
+      <li>Lighthouse Coffee Seattle, WA</li>
+      <li>Achorhead Seattle, WA</li>
+      <li>Cafe Vita Seattle, WA</li>
+      <li>Stumptown Portland, OR</li>
+    </ul>
   </div>
   
   </body>
-
-<!-- <body>
-  <header>
-  
-  </header>
-  <main>
-    
-
-  <div class="container-fluid">
-
-
-
-    <nav id="navbar" class="navbar bg-light px-3 mb-3" >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Canoe Coffee</a>
-
-      <ul class="nav nav-pills nav-fill">
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link" href="#reservations">Reservations</a>
-        </li>
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link" href="#menu">Menu</a>
-        </li>
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link" href="#canoe">The Canoe</a>
-        </li>
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link" href="#roasts">Regional Roasters</a>
-        </li>
-      </ul>
-
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#reservations">Reservations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#menu">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#canoe">The Canoe</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#roasts">Regional Roasters</a>
-              </li>
-            </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-  
-
-
-        <div data-bs-spy="scroll" data-bs-target="#nabvar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="navbar navbar-expand-lg bg-light px-3 mb-3" tabindex="0" data-offset="70>
-          <h4 id="reservations">Coffee Reservations</h4>
-          <div id="Reservations">
-            <p></p>
-            <p>Choose when and where you'd like coffee.</p>
-            <form>
-              <div class="form-group">
-                  <p>Canoe Coffee is a coffee powered, canoe coffee car in Seattle, WA USA</p>
-                <label for="booking_location">Location</label>
-              <input  class="form-control" id="booking_location" name="booking_location" list="locations">
-              <datalist id="locations">
-                <option value="Lake WA, UW Stadium"></option>
-                <option value="Lake Union, Gasworks Park"></option>
-              </datalist>
-              </div>
-      
-              <div class="form-group">
-                <label for="people">Number of People</label>
-                <input type="number" class="form-control" id="people" placeholder="2" min="1" max="8" name="people">
-              </div>
-      
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-            
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">I accept the cancelation policy.</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-              <br>
-              <div><img src="IMG_2028.JPG" class="img-fluid" alt="Coffee image" max-width: 100%; height: auto;>  </div>
-            </form>
-            </div>
-        </div> 
-          <h4 id="menu">Menu</h4>
-          <div id="menubox">
-            <table>
-              <tr>
-                <th>Drink</th>
-                <th>Prices</th>
-              </tr>
-              <tr>
-                <td>Pour Over</td>
-                <td>$5</td>
-              </tr>
-              <tr>
-                <td>Drip</td>
-                <td>$1</td>
-              </tr>
-              <tr>
-                <td>Latte</td>
-                <td>$5</td>
-              </tr>
-            </table>
-
-          </div>
-          <h4 id="canoe">The Canoe</h4>
-          <div id="the canoe">
-            <table>
-              <tr>
-                <th>Catagory</th>
-                <th>Specs</th>
-              </tr>
-              <tr>
-                <td>Type:</td>
-                <td>Easy Rider Ouzel 17 Canoe</td>
-              </tr>
-              <tr>
-                <td>Color:</td>
-                <td>Red</td>
-              </tr>
-              <tr>
-                <td>Fuel:</td>
-                <td>People Powered By Coffee</td>
-              </tr>
-            </table>
-
-
-          </div>
-          <h4 id="roasts">Regional Roasters</h4>
-          <div id="roasters">
-            <ul>
-              <li>Cafe Vita Seattle, WA</li>
-              <li>Cafe Vita Seattle, WA</li>
-              <li>Cafe Vita Seattle, WA</li>
-              <li>Cafe Vita Seattle, WA</li>
-            </ul>
-          </div>
-        </div>
-  </main>
-</body> -->
-
 </html>
