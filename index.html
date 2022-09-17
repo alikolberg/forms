@@ -77,9 +77,9 @@
   </nav>
   
   <!-- Content Sections -->
+  <!-- Menu -->
   <div id="menu" class="container-fluid bg-success text-white" style="padding:100px 20px;">
     <h1>Menu</h1>
-    
       <table>
         <tr>
           <th>Coffee</th>
@@ -113,17 +113,59 @@
         </tr>
       </table>
   </div>
-  
+  <!-- Reservations -->
   <div id="reservations" class="container-fluid bg-warning" style="padding:100px 20px;">
     <h1>Reservations</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Choose when and where you'd like coffee.</p>
+
+    <!--form-->
+    <form autocomplete="on">
+
+      <div class="form-group">
+        <label for="selectdate">Date</label>
+        <input type="date" class="form-control" id="selectdate" placeholder="2" min="2022/09/01" max="2035/09/01" name="selectdate" required>
+      </div>
+
+      <div class="form-group">
+        <label for="booking_location">Location</label>
+      <select class="form-select" aria-label="booking locations" id="booking_location" name="booking_location"required>
+        <option selected>Lake WA, UW Stadium</option>
+        <option value="1">Lake Union, Gasworks Park</option>
+      </select>
+      </div>
+
+      <div class="form-group">
+        <label for="people">Number of People</label>
+        <input type="number" class="form-control" id="people" placeholder="1" min="1" max="8" name="people" required>
+        <small id="numberHelp" class="form-text text-muted">Reservations can be made for up to 8 people.</small>
+      </div>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="name" class="form-control" id="name" aria-describedby="reservationname" placeholder="Name for Reservation">
+       
+      </div>
+      <div class="form-group">
+        <label for="InputEmail1">Email address</label>
+        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+    
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="Check1" required>
+        <label class="form-check-label" for="Check1">I accept the cancelation policy.</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <br>
+      <div><img src="IMG_2028.JPG" class="img-fluid" alt="Coffee image" max-width: 100%; height: auto;>  </div>
+    </form>
   </div>
   
   <div id="boat" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
     <h1>The Boat</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Canoe Coffee is a coffee powered, canoe coffee car in Seattle, WA USA</p>
   </div>
 
   <div id="roasters" class="container-fluid bg-success text-white" style="padding:100px 20px;">
