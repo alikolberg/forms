@@ -17,12 +17,15 @@
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+ <!-- CSS -->
+ <link rel="stylesheet" href="css.css">
+
 <!-- Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  
 
-</html>
+
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
@@ -82,9 +85,10 @@
   
   <!-- Content Sections -->
   <!-- Menu -->
-  <div id="menu" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <div id="menu" class="container-fluid bg-success text-white row justify-content-center" style="padding:100px 20px;">
+    <div class="col-auto">
     <h1>Menu</h1>
-      <table>
+      <table class="table-responsive">
         <tr>
           <th>Coffee</th>
         </tr>
@@ -116,9 +120,11 @@
           <td>$5</td>
         </tr>
       </table>
+    </div>
   </div>
   <!-- Reservations -->
-  <div id="reservations" class="container-fluid bg-warning" style="padding:100px 20px;">
+  <div id="reservations" class="container-fluid bg-warning row justify-content-center" style="padding:100px 20px;">
+    <div class="col-sm-8">
     <h1>Reservations</h1>
     <p>Choose when and where you'd like coffee.</p>
 
@@ -160,14 +166,18 @@
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
       <br>
-      <div><img src="IMG_2028.JPG" class="img-fluid" alt="Coffee image" max-width: 100%; height: auto;>  </div>
+      
     </form>
+    <div><img src="IMG_2028.JPG" class="img-fluid" alt="Coffee image" max-width: 100%; height: auto;>  </div>
+    </div>
   </div>
-  
-  <div id="boat" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+  <!--the boat-->
+
+  <div id="boat" class="container-fluid bg-secondary text-white row justify-content-center" style="padding:100px 20px;">
+    <div class="col-auto">
     <h1>The Boat</h1>
     <p>Canoe Coffee is a coffee powered, canoe coffee car in Seattle, WA USA</p>
-    <table>
+    <table class="table-responsive">
       <tr>
         <th>Catagory</th>
         <th>Specs</th>
@@ -185,10 +195,12 @@
         <td>People Powered By Coffee</td>
       </tr>
     </table>
-
+    </div>
   </div>
+<!--roasters-->
 
-  <div id="roasters" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+  <div id="roasters" class="container-fluid bg-success text-white row justify-content-center" style="padding:100px 20px;">
+    <div class="col-auto">
     <h1>Regional Roasters</h1>
     <p>Canoe Coffee sources its beans from rosasters all around the Pacific Northwest </p>
     <ul>
@@ -198,6 +210,7 @@
       <li>Cafe Vita Seattle, WA</li>
       <li>Stumptown Portland, OR</li>
     </ul>
+    </div>
   </div>
 
   <!--footer-->
