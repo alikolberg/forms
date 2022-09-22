@@ -1,14 +1,21 @@
 body {
     background-color: #F2ECE4;
   }
-  h1 {
-    color: #448FF2;
+h1 {
+    color: #2C5245;
     font-family: "Comfortaa";
     font-weight: regular;
     font-size:  32 px;
     text-transform: uppercase;
   }
 
+.navfont {
+    color: #2C5245;
+    font-family: "Comfortaa";
+    font-weight: regular;
+    font-size:  32 px;
+    text-transform: uppercase;
+}
 
 
 .bgimpact {
