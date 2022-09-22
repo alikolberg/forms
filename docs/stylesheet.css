@@ -2,7 +2,7 @@ body {
     background-color: #F2ECE4;
   }
   h1 {
-    color: blue;
+    color: #448FF2;
     font-family: "Comfortaa";
     font-weight: regular;
     font-size:  32 px;
@@ -10,30 +10,32 @@ body {
   }
 
   ul {
-    font-family: "Noto-Sans";
+    font-family: "Noto Sans";
     font-weight: regular;
     Font-size: 16px;
   }
 
   p {
-    font-family: "Noto-Sans";
+    font-family: "Noto Sans";
     font-weight: regular;
     Font-size: 16px;
   }
 .tablefont {
-    font-family: "Noto-Sans";
+    font-family: "Noto Sans";
     font-weight: regular;
     Font-size: 16px;
 }
 
 .formfont {
-    font-family: "Noto-Sans";
+    font-family: "Noto Sans";
     font-weight: regular;
     Font-size: 16px;
 }
 
 .navfont {
     font-family: "Comfortaa";
+    font-weight: regular;
+    font-size:  32 px;
     text-transform: uppercase;
 }
 .bgimpact {
