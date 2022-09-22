@@ -1,6 +1,15 @@
 body {
     background-color: #F2ECE4;
   }
+
+  .bgimpact {
+    background-color: #F23207;
+}
+
+.bghighlight {
+    background-color: #F25E3D;
+}
+
 h1 {
     color: #25453A;
     font-family: "Comfortaa";
@@ -35,11 +44,10 @@ p {
   Font-size: 16px;
 }
 
-.bgimpact {
-    background-color: #F23207;
+ul {
+  font-family: "Noto Sans";
+  font-weight: regular;
+  Font-size: 16px;
 }
 
-.bghighlight {
-    background-color: #F25E3D;
-}
 
