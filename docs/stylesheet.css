@@ -10,13 +10,7 @@ body {
   }
 
 
-.navfont {
-    color: #448FF2;
-    font-family: "Comfortaa";
-    font-weight: regular;
-    font-size:  32 px;
-    text-transform: uppercase;
-}
+
 .bgimpact {
     background-color: #F23207;
 }
