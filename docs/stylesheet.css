@@ -9,30 +9,9 @@ body {
     text-transform: uppercase;
   }
 
-  ul {
-    font-family: "Noto Sans";
-    font-weight: regular;
-    Font-size: 16px;
-  }
-
-  p {
-    font-family: "Noto Sans";
-    font-weight: regular;
-    Font-size: 16px;
-  }
-.tablefont {
-    font-family: "Noto Sans";
-    font-weight: regular;
-    Font-size: 16px;
-}
-
-.formfont {
-    font-family: "Noto Sans";
-    font-weight: regular;
-    Font-size: 16px;
-}
 
 .navfont {
+    color: #448FF2;
     font-family: "Comfortaa";
     font-weight: regular;
     font-size:  32 px;
