@@ -23,6 +23,12 @@ h1 {
   Font-size: 16px;
 }
 
+.tablefont {
+  font-family: "Noto+Sans";
+  font-weight: regular;
+  Font-size: 16px;
+}
+
 .bgimpact {
     background-color: #F23207;
 }
