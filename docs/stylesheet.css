@@ -7,7 +7,11 @@ body {
     font-size:  32 px;
     text-transform: uppercase;
   }
-
+.navfont {
+    font-family: "Comfortaa";
+    font-size:  32 px;
+    text-transform: uppercase;
+}
 .bgimpact {
     background-color: #F23207;
 }
@@ -15,3 +19,4 @@ body {
 .bghighlight {
     background-color: #F25E3D;
 }
+
