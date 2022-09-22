@@ -1,7 +1,9 @@
 body {
     background-color: #F2ECE4;
   }
-
+  h1 {
+    color: blue;
+  }
 
 .bgimpact {
     background-color: #F23207;
