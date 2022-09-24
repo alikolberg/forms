@@ -24,6 +24,10 @@ p {
     Font-size: 16px;
   }
 
+table {
+
+  width: auto;
+}
 footer {
   color: #25453A;
   font-family: "Comfortaa";
