@@ -97,3 +97,16 @@ input[type=text]:focus {
 select {
   background-color: #25453A;
 }
+
+ininput[type=submit] {
+  background-color: #75BF9C;
+  border: none;
+  color: #F2ECE4;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Comfortaa";
+  font-weight: regular;
+  font-size:  32 px;
+  text-transform: uppercase;
+}
