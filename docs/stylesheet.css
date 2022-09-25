@@ -78,35 +78,3 @@ footer {
   font-weight: regular;
   Font-size: 16px;
 }
-
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 3px solid #F25E3D;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}
-
-input[type=text]:focus {
-  border: 3px solid #25453A;
-}
-
-select {
-  background-color: #25453A;
-}
-
-input[type=submit] {
-  background-color: #75BF9C;
-  border: none;
-  color: #F2ECE4;
-  padding: 16px 32px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: "Comfortaa";
-  font-weight: regular;
-  font-size:  32 px;
-  text-transform: uppercase;
-}
