@@ -3,11 +3,11 @@ body {
   }
 
   .bgimpact {
-    background-color: #F23207;
+    background-color: #F25C05
 }
 
 .bghighlight {
-    background-color: #F25E3D;
+    background-color: #D2D904;
 }
 
 h1 {
@@ -41,7 +41,7 @@ th {
 td {
   padding: 15px;
   text-align: left;
-  border-bottom: 3px solid #F2ECE4;
+  border-bottom: 3px solid #1FA634;
 }
 
 
@@ -80,9 +80,9 @@ footer {
 }
 
 .button {
-  background-color: #75BF9C;
+  background-color: #D2D904;
   border: none;
-  color: #F2ECE4;
+  color: #1FA634;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
