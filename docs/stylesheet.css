@@ -78,3 +78,17 @@ footer {
   font-weight: regular;
   Font-size: 16px;
 }
+
+.button {
+  background-color: #75BF9C;
+  border: none;
+  color: #F2ECE4;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-family: "Noto Sans";
+  font-weight: regular;
+  Font-size: 16px;
+}
