@@ -9,6 +9,9 @@ body {
 .bghighlight {
     background-color: #D2D904;
 }
+.bglowlight {
+  background-color: #1FA634;
+}
 
 h1 {
     color: #25453A;
@@ -45,7 +48,7 @@ td {
 }
 
 .barcolor {
-  border-bottom: 3px solid #F2ECE4;
+  border-bottom: 3px solid #1763A6;
 }
 
 footer {
