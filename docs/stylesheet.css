@@ -36,7 +36,7 @@ th {
   padding: 15px;
   text-align: left;
   text-transform: capitalize;
-  border-bottom: 3px solid #F26241;
+  border-bottom: 3px solid #F2ECE4;
 }
 td {
   padding: 15px;
@@ -44,6 +44,9 @@ td {
   border-bottom: 3px solid #1FA634;
 }
 
+.barcolor {
+  border-bottom: 3px solid #F2ECE4;
+}
 
 footer {
   color: #25453A;
@@ -82,7 +85,7 @@ footer {
 .button {
   background-color: #D2D904;
   border: none;
-  color: #1FA634;
+  color: #25453A;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -91,4 +94,11 @@ footer {
   font-family: "Noto Sans";
   font-weight: regular;
   Font-size: 16px;
+  border-radius: 12px;
+  transition-duration: .4s;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: #F2ECE4;
 }
